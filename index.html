@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>Headphones</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="images/logo-dark.png" alt="logo" class="logo-dark" />
+            <img src="images/logo-white.png" alt="logo" class="logo-white" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#store">Store</a></li>
+        <li><button class="btn">Buy Now</button></li>
+      </ul>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="images/header.png" alt="header" />
+        <img src="images/header-bg.png" alt="header_bg" class="header-bg" />
+        <div class="header__image__content">
+          <h4>Price: $100</h4>
+          <button class="btn">Add to cart</button>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1>Bluetooth<br />Headphone</h1>
+        <p>
+          Dive into our curated selection of premium Bluetooth headphones,
+          crafted for the ultimate listening experience.
+        </p>
+      </div>
+    </header>
+
+    <section class="product" id="product">
+      <div class="section__container product__container">
+        <div class="product__grid">
+          <div class="product__image">
+            <img src="images/product.png" alt="product" />
+          </div>
+          <div class="product__content">
+            <div class="product__card">
+              <h4>Bluetooth</h4>
+              <p>Bluetooth 4.2 - ACC codec</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="product__card">
+              <h4>Quality sound</h4>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="product__card">
+              <div class="product__colors">
+                <div><i class="ri-check-line"></i></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p>Available colors</p>
+            </div>
+          </div>
+        </div>
+        <div class="product__btn">
+          <button class="btn">Add to cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container store__container" id="store">
+      <h2>JBL beats design</h2>
+      <p>
+        Explore our JBL Beats Design collection, where style meets superior
+        audio performance.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper row">
+          <!-- Slides -->
+          <div class="col-md-4">
+            <div class="swiper-slide">
+              <div class="store__card">
+                <h4>Model no- 00035</h4>
+                <img src="images/store-1.png" alt="store" />
+                <h3>Price- $100</h3>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00045</h4>
+              <img src="images/store-2.png" alt="store" />
+              <h3>Price- $70</h3>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-4">
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no-00125</h4>
+              <img src="images/store-3.png" alt="store" />
+              <h3>Price- $60</h3>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-4">
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00055</h4>
+              <img src="images/store-4.png" alt="store" />
+              <h3>Price- $90</h3>
+            </div>
+          </div>
+         </div>
+          <div class="col-md-4">
+            <div class="swiper-slide">
+              <div class="store__card">
+                <h4>Model no- 00015</h4>
+                <img src="images/store-5.png" alt="store" />
+                <h3>Price- $50</h3>
+              </div>
+            </div>
+          </div>
+         <div class="col-md-4">
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model no- 00015</h4>
+              <img src="images/store-5.png" alt="store" />
+              <h3>Price- $30</h3>
+            </div>
+          </div>
+         </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <img src="images/logo-white.png" alt="logo" />
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Nashy Nashy. All rights reserved
+      </div>
+    </footer>
+  </body>
+</html>
